@@ -29,3 +29,10 @@ let customer = {
 //prototyping
 customer.lastName = "Çeliktuğ"
 console.log(customer.lastName)
+
+console.log("************************")
+userServices.load()
+
+console.log(userServices.customers)
+console.log(userServices.employees)
+console.log(userServices.errors)

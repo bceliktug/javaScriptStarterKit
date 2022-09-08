@@ -1,0 +1,47 @@
+export const users = [
+    {
+        id:1,
+        firstName:"Engin",
+        lastName:"Demiroğ",
+        age:36,
+        creditCartNumber:"123456",
+        type:"customer",
+    },
+    {
+        id:2,
+        firstName:"EnginMustafa",
+        lastName:"Bacak",
+        city:"İstanbul",
+        age:21,
+        creditCartNumber:"234567",
+        type:"customer",
+    },
+     {
+        id:3,
+        firstName:"Bulut",
+        lastName:"Çelik",
+        city:"İzmir",
+        salary:8000,
+        type:"employee"
+    },
+    {
+        id:4,
+        firstName:"Hande",
+        lastName:"Köse",
+        city:"Manisa",
+        age:"a21",
+        salary:10000,
+        type:"employee"
+
+    },
+    {
+        id:5,
+        firstName:"Hakan",
+        lastName:"Çelikmuğ",
+        city:"Trabzon",
+        age:50,
+        creditCartNumber:20000,
+        type:"boss"
+
+    },
+]
