@@ -71,7 +71,7 @@ let numbers = [30,10,500,600,40]
 console.log(Math.max(...numbers))
 
 //distructing
-let [icAnadolu,marmara,karadeniz,[icAnadoluSehirleri]] = [
+let [icAnadolu,marmara,karadeniz,[icAnadoluSehirleri,marmaraSehirleri,karadenizSehirleri]] = [
     {name:"İç Anadolu", population:"20M"},
     {name:"Marmara", population:"30M"},
     {name:"Karadeniz", population:"10M"},
@@ -84,6 +84,8 @@ let [icAnadolu,marmara,karadeniz,[icAnadoluSehirleri]] = [
 console.log(icAnadolu)
 console.log(marmara)
 console.log(icAnadoluSehirleri)
+console.log(marmaraSehirleri)
+console.log(karadenizSehirleri)
 
 
 
